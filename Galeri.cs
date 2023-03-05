@@ -36,6 +36,8 @@ namespace OtoGaleriUygulamasi
         public int ToplamArabaKiralanmaSuresi { get; }
         public float Ciro { get; }
 
+        public Araba ArabaBilgisi { get;  }
+
 
         public void ArabaEkleme(string plaka, string marka, float ucret, ARACTIPI aracTipi)
         {

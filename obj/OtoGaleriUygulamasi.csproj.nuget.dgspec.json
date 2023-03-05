@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj": {}
+    "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj": {
+    "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj",
+        "projectUniqueName": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj",
         "projectName": "OtoGaleriUygulamasi",
-        "projectPath": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj",
+        "projectPath": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi.csproj",
         "packagesPath": "C:\\Users\\spole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\OtoGaleriUygulamasi\\obj\\",
+        "outputPath": "C:\\Users\\spole\\OneDrive\\Masaüstü\\silicon\\OtoGaleriUygulamasi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spole\\AppData\\Roaming\\NuGet\\NuGet.Config",

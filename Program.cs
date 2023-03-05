@@ -9,7 +9,6 @@ namespace OtoGaleriUygulamasi
     {
         static int count = 0;
         static Galeri G048Galerisi = new Galeri();
-        static List<Araba> Arabalar = new List<Araba>();
         //KULLANICI ETKİLELŞİMİ
         static void Main(string[] args)
         {
@@ -94,30 +93,44 @@ namespace OtoGaleriUygulamasi
             G048Galerisi.ArabaEkleme("25AAAA12", "OPEL", 280f, ARACTIPI.Sedan);
             G048Galerisi.ArabaEkleme("26AAAA12", "OPEL", 220f, ARACTIPI.Hatchback);
             G048Galerisi.ArabaEkleme("27AAAA12", "OPEL", 240f, ARACTIPI.SUV);
-            G048Galerisi.ArabaEkleme("28AAAA12", "OPEL", 210.5f, ARACTIPI.Sedan);
+            //G048Galerisi.ArabaEkleme("28AAAA12", "OPEL", 210.5f, ARACTIPI.Sedan);
 
         }
         static void ArabaEkle()
         {
-            string plaka = "";
+            Console.Write("Plaka: ");
+            string plaka = Console.ReadLine();
 
-            string marka = "";
-            float kiralamaBedeli = 340f;
+            Console.Write("Marka: ");
+            string marka = Console.ReadLine();
+
+            Console.Write("Kiralama bedeli: ");
+            float kiralamaBedeli = float.Parse(Console.ReadLine());
 
             ARACTIPI aTipi = ARACTIPI.Empty;
 
-            Console.WriteLine("Araba Tipleri:      ");
-            Console.WriteLine(" - SUV için 1       ");
-            Console.WriteLine(" - Hatchback için 2 ");
-            Console.WriteLine(" - Sedan için 3     ");
+            Console.WriteLine("Araç tipi:      ");
+            Console.WriteLine("SUV için 1       ");
+            Console.WriteLine("Hatchback için 2 ");
+            Console.WriteLine("Sedan için 3     ");
+            Console.Write("Araba Tipi: ");
             string secim = Console.ReadLine();
 
-            if (secim == "1")
+            switch (secim)
             {
-                aTipi = ARACTIPI.SUV;
+                case "1":
+                    aTipi = ARACTIPI.SUV;
+                    break;
+                case "2":
+                    aTipi = ARACTIPI.Hatchback;
+                    break;
+                case "3":
+                    aTipi = ARACTIPI.Sedan;
+                    break;
             }
 
             G048Galerisi.ArabaEkleme(plaka, marka, kiralamaBedeli, aTipi);
+            Console.WriteLine("Araba başarılı bir şekilde eklendi.");
 
         } //ekrandan bilgi alacak, galeri class'a gönderecek.
         static void ArabaKirala()
@@ -138,9 +151,8 @@ namespace OtoGaleriUygulamasi
         {
             int kontrol = 0;
             Console.WriteLine("-Tüm Arabalar-");
-            foreach (Araba item in Arabalar)
+            foreach (Araba item in G048Galerisi.Arabalar)
             {
-                Console.Write(item.Durum);
                 if(item.Durum == 0)
                 {
                     Console.WriteLine("Listelenecek araç yok.");
@@ -151,9 +163,9 @@ namespace OtoGaleriUygulamasi
             {
                 Console.WriteLine("Plaka         Marka       K. Bedeli   Araba Tipi  K. Sayısı   Durum");
                 Console.WriteLine("----------------------------------------------------------------------");
-                foreach (Araba item in Arabalar)
+                foreach (Araba item in G048Galerisi.Arabalar)
                 {
-                    Console.WriteLine(item.Plaka + "     " + item.Marka + "    " + item.KiralamaUcreti + " " + item.ArabaTipi + "       " + item.KiralanmaSayisi + "     " + item.Durum);
+                    Console.WriteLine(item.Plaka + "     " + item.Marka + "       " + item.KiralamaUcreti + "      " + item.ArabaTipi + "       " + item.KiralanmaSayisi + "     " + item.Durum);
                 }
             }
             else return;
