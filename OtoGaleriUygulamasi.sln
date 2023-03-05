@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoGaleriUygulamasi", "OtoGaleriUygulamasi.csproj", "{F17EB3A3-CB75-40F3-B396-8CB23CB02339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17EB3A3-CB75-40F3-B396-8CB23CB02339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17EB3A3-CB75-40F3-B396-8CB23CB02339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17EB3A3-CB75-40F3-B396-8CB23CB02339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17EB3A3-CB75-40F3-B396-8CB23CB02339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {416A596E-40B0-4C16-B925-5250CED0B74C}
+	EndGlobalSection
+EndGlobal
