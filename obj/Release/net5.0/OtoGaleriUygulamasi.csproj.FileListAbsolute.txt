@@ -1,0 +1,16 @@
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.exe
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.deps.json
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.runtimeconfig.json
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.runtimeconfig.dev.json
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.dll
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\bin\Release\net5.0\OtoGaleriUygulamasi.pdb
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.csproj.AssemblyReference.cache
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.AssemblyInfoInputs.cache
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.AssemblyInfo.cs
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.dll
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\refint\OtoGaleriUygulamasi.dll
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.pdb
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\OtoGaleriUygulamasi.genruntimeconfig.cache
+C:\Users\spole\OneDrive\Masaüstü\silicon\OtoGaleriUygulamasi\obj\Release\net5.0\ref\OtoGaleriUygulamasi.dll

@@ -1,0 +1,5 @@
+c:\yeni\OtoGaleriUygulamasi.exe
+c:\yeni\OtoGaleriUygulamasi.dll
+c:\yeni\OtoGaleriUygulamasi.deps.json
+c:\yeni\OtoGaleriUygulamasi.runtimeconfig.json
+c:\yeni\OtoGaleriUygulamasi.pdb

@@ -11,7 +11,7 @@ namespace OtoGaleriUygulamasi
 
         public string Plaka { get; set; }
         public string Marka { get; set; }
-        public float KiralamaUcreti { get; set; }
+        public int KiralamaUcreti { get; set; }
         public ARACTIPI ArabaTipi { get; set; }
         public DURUM Durum { get; set; }
         public int KiralanmaSayisi
@@ -40,7 +40,7 @@ namespace OtoGaleriUygulamasi
         {
             this.Durum = DURUM.Galeride;
         }
-        public Araba(string plaka, string marka, float kUcreti, ARACTIPI aTipi)
+        public Araba(string plaka, string marka, int kUcreti, ARACTIPI aTipi)
         {
             this.Plaka = plaka;
             this.Marka = marka;
@@ -53,7 +53,7 @@ namespace OtoGaleriUygulamasi
     }
     public enum DURUM
     {
-        Empty, Galeride, Kirada
+        Galeride = 1, Kirada
     }
     public enum ARACTIPI
     {
